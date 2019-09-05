@@ -11,11 +11,11 @@ def sum_all(a):
     pass
 
 def sum_columns(a):
-    """Возвращает сумм"""
+    """Постолбцовая сумма"""
     pass
 
 def sum_rows(a):
-    """Возвращает сумму всех элементов"""
+    """Построчная сумма"""
     pass
 
 def reorder1(m):
