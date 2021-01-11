@@ -11,7 +11,7 @@ from mymodule.utils import swap
 def main():
     x = 1
     y = 2
-    assert swap(x, y) == y, x
+    assert swap(x, y) == (y, x)
 
 
 if __name__ == '__main__':
