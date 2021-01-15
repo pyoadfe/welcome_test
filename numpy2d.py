@@ -35,7 +35,7 @@ def main():
                   [7, 8, 9,]])
     assert sum_all(a) == 45
     assert np.array_equal(sum_columns(a), np.array([12, 15, 18]))
-    assert np.array_equal(sum_rows(a), np.array([6, 15, 26]))
+    assert np.array_equal(sum_rows(a), np.array([6, 15, 24]))
     
     m = np.array([[1, 2, 3, 4,],
                   [5, 6, 7, 8,],
